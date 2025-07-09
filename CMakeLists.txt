@@ -10,7 +10,8 @@ find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
 include_directories(include)
 
-add_executable(activity_registry src/main.cpp
+add_executable(
+        activity_registry src/main.cpp
         include/core/Activity.h
         include/core/Observer.h
         include/gui/ActivityWindow.h

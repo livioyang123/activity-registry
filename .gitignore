@@ -1,1 +1,8 @@
-cmake-build-*/
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.ninja
+*.o
+*.exe
