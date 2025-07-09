@@ -1,0 +1,3 @@
+C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/CMakeFiles/activity_registry.dir
+C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
