@@ -18,13 +18,13 @@ public:
              const std::chrono::system_clock::time_point& start,
              const std::chrono::system_clock::time_point& end);
 
-    // Getters
+
     int getId() const { return id; }
     std::string getDescription() const { return description; }
     std::chrono::system_clock::time_point getStartTime() const { return startTime; }
     std::chrono::system_clock::time_point getEndTime() const { return endTime; }
 
-    // Metodi utility
+
     std::chrono::duration<double> getDuration() const;
     bool isValid() const;
 };

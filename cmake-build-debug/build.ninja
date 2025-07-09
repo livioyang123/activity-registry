@@ -50,7 +50,7 @@ cmake_ninja_workdir = C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/act
 build cmake_object_order_depends_target_activity_registry: phony || activity_registry_autogen activity_registry_autogen/mocs_compilation.cpp activity_registry_autogen/timestamp activity_registry_autogen_timestamp_deps
 
 build CMakeFiles/activity_registry.dir/activity_registry_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\activity_registry.dir\activity_registry_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
@@ -58,7 +58,7 @@ build CMakeFiles/activity_registry.dir/activity_registry_autogen/mocs_compilatio
   OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\activity_registry_autogen
 
 build CMakeFiles/activity_registry.dir/src/main.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/src/main.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\activity_registry.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
@@ -66,7 +66,7 @@ build CMakeFiles/activity_registry.dir/src/main.cpp.obj: CXX_COMPILER__activity_
   OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\src
 
 build CMakeFiles/activity_registry.dir/src/core/Activity.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/src/core/Activity.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\activity_registry.dir\src\core\Activity.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
@@ -74,7 +74,7 @@ build CMakeFiles/activity_registry.dir/src/core/Activity.cpp.obj: CXX_COMPILER__
   OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\src\core
 
 build CMakeFiles/activity_registry.dir/src/core/Registry.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/src/core/Registry.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\activity_registry.dir\src\core\Registry.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
@@ -82,36 +82,12 @@ build CMakeFiles/activity_registry.dir/src/core/Registry.cpp.obj: CXX_COMPILER__
   OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\src\core
 
 build CMakeFiles/activity_registry.dir/src/gui/ActivityWindow.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/src/gui/ActivityWindow.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\activity_registry.dir\src\gui\ActivityWindow.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\activity_registry.dir
   OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\src\gui
-
-build CMakeFiles/activity_registry.dir/tests/test_main.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/tests/test_main.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\activity_registry.dir\tests\test_main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\activity_registry.dir
-  OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\tests
-
-build CMakeFiles/activity_registry.dir/tests/core/test_Activity.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/tests/core/test_Activity.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\activity_registry.dir\tests\core\test_Activity.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\activity_registry.dir
-  OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\tests\core
-
-build CMakeFiles/activity_registry.dir/tests/core/test_Registry.cpp.obj: CXX_COMPILER__activity_registry_unscanned_Debug C$:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/tests/core/test_Registry.cpp || cmake_object_order_depends_target_activity_registry
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\activity_registry.dir\tests\core\test_Registry.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/include -isystem C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\activity_registry.dir
-  OBJECT_FILE_DIR = CMakeFiles\activity_registry.dir\tests\core
 
 
 # =============================================================================
@@ -121,11 +97,12 @@ build CMakeFiles/activity_registry.dir/tests/core/test_Registry.cpp.obj: CXX_COM
 #############################################
 # Link the executable activity_registry.exe
 
-build activity_registry.exe: CXX_EXECUTABLE_LINKER__activity_registry_Debug CMakeFiles/activity_registry.dir/activity_registry_autogen/mocs_compilation.cpp.obj CMakeFiles/activity_registry.dir/src/main.cpp.obj CMakeFiles/activity_registry.dir/src/core/Activity.cpp.obj CMakeFiles/activity_registry.dir/src/core/Registry.cpp.obj CMakeFiles/activity_registry.dir/src/gui/ActivityWindow.cpp.obj CMakeFiles/activity_registry.dir/tests/test_main.cpp.obj CMakeFiles/activity_registry.dir/tests/core/test_Activity.cpp.obj CMakeFiles/activity_registry.dir/tests/core/test_Registry.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a || activity_registry_autogen activity_registry_autogen_timestamp_deps
+build activity_registry.exe: CXX_EXECUTABLE_LINKER__activity_registry_Debug CMakeFiles/activity_registry.dir/activity_registry_autogen/mocs_compilation.cpp.obj CMakeFiles/activity_registry.dir/src/main.cpp.obj CMakeFiles/activity_registry.dir/src/core/Activity.cpp.obj CMakeFiles/activity_registry.dir/src/core/Registry.cpp.obj CMakeFiles/activity_registry.dir/src/gui/ActivityWindow.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a || activity_registry_autogen activity_registry_autogen_timestamp_deps
   FLAGS = -g
-  LINK_LIBRARIES = C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\activity_registry.dir
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\39347\CLionProjects\Fondamenti_compito_17\04\activity-registry\cmake-build-debug && C:\Qt\6.9.1\mingw_64\bin\windeployqt.exe C:/Users/39347/CLionProjects/Fondamenti_compito_17/04/activity-registry/cmake-build-debug/activity_registry.exe"
   PRE_LINK = cd .
   TARGET_FILE = activity_registry.exe
   TARGET_IMPLIB = libactivity_registry.dll.a
