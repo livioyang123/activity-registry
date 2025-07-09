@@ -19,8 +19,8 @@ public:
     ActivityWindow(QWidget *parent = nullptr);
     ~ActivityWindow();
 
-    private slots:
-        void onAddActivity();
+private slots:
+    void onAddActivity();
     void onDeleteActivity();
     void onDateChanged();
 
