@@ -10,21 +10,31 @@ find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
 include_directories(include)
 
-add_executable(
-        activity_registry src/main.cpp
-        include/core/Activity.h
-        include/core/Observer.h
-        include/gui/ActivityWindow.h
-        include/core/Registry.h
+set(SOURCES
+        src/main.cpp
         src/core/Activity.cpp
         src/core/Registry.cpp
         src/gui/ActivityWindow.cpp
-        tests/test_main.cpp
-        tests/core/test_Activity.cpp
-        tests/core/test_Registry.cpp)
+)
+
+set(HEADERS
+        include/core/Activity.h
+        include/core/Observer.h
+        include/core/Registry.h
+        include/gui/ActivityWindow.h
+)
+
+add_executable( activity_registry WIN32 ${SOURCES} ${HEADERS})
 
 # Link Qt
 target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Widgets)
+
+if (WIN32)
+    add_custom_command(TARGET activity_registry POST_BUILD
+            COMMAND "C:/Qt/6.9.1/mingw_64/bin/windeployqt.exe"
+            $<TARGET_FILE:activity_registry>
+    )
+endif()
 
 # Tests
 option(BUILD_TESTS "Build tests" ON)
