@@ -2,7 +2,14 @@
 // Created by 39347 on 09/07/2025.
 //
 
-#ifndef OBSERVER_H
-#define OBSERVER_H
+#pragma once
+#include "Activity.h"
 
-#endif //OBSERVER_H
+class ActivityObserver {
+public:
+    virtual ~ActivityObserver() = default;
+    virtual void onActivityAdded(const Activity& activity) = 0;
+    virtual void onActivityRemoved(int id) = 0;
+    virtual void onActivityUpdated(const Activity& activity) = 0;
+};
+
