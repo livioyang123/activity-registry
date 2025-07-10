@@ -19,7 +19,6 @@ set(SOURCES
 
 set(HEADERS
         include/core/Activity.h
-        include/core/Observer.h
         include/core/Registry.h
         include/gui/ActivityWindow.h
 )
@@ -54,9 +53,14 @@ if(BUILD_TESTS)
     add_executable(run_tests
             tests/test_main.cpp
             tests/core/test_Activity.cpp
+            tests/core/test_Registry.cpp
             src/core/Activity.cpp
+            src/core/Registry.cpp
     )
 
-    target_link_libraries(run_tests gtest_main)
+    target_link_libraries(run_tests
+            gtest_main
+            Qt6::Core
+    )
     add_test(NAME ${PROJECT_NAME}Tests COMMAND run_tests)
 endif()
